@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="./style3.css">
+    </head>
+    <body style="background-color: lightgrey;">
+        <div class="header">
+            <div class="login"><h1>Login</h1></div>
+            <div class="name">
+                <h2>Username</h2>
+            
+            <input type="text" id="username">
+            </div>
+            <div class="password">
+                <h2>Password</h2>
+            
+            <input type="password" id="pass">
+            </div>
+            <br>
+            <div class="loginbutton" style="background-color: green">Login</div>
+            <div class="noaccount">
+                <p>Don't have an account? </p>
+                <label class="signup">Sign Up</label>
+            </div>
+        </div>
+    </body>
+</html>
